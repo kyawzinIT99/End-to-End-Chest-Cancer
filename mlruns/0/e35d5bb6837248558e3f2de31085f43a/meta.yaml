@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/berry/Desktop/End-to-End-Chest-Cancer/mlruns/0/e35d5bb6837248558e3f2de31085f43a/artifacts
+end_time: 1755697880843
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e35d5bb6837248558e3f2de31085f43a
+run_name: casual-rat-494
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755697877533
+status: 3
+tags: []
+user_id: berry

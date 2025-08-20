@@ -3,6 +3,8 @@ from pathlib import Path
 import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
+import tensorflow.keras as keras
+keras.__version__ = keras.__version__ if hasattr(keras, "__version__") else "2.0.0"
 from cnnClassifier.entity.config_entity import EvaluationConfig
 from cnnClassifier.utils.common import read_yaml, create_directories,save_json
 
@@ -69,6 +71,7 @@ class Evaluation:
                 # There are other ways to use the Model Registry, which depends on the use case,
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+                #mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+                 mlflow.tensorflow.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
                 mlflow.keras.log_model(self.model, "model")

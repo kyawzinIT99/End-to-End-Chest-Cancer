@@ -1,0 +1,10 @@
+artifact_location: file:///Users/berry/Desktop/End-to-End-Chest-Cancer/mlruns/0/models/m-f17d8a76364f4b18a106a6d24c0638cc/artifacts
+creation_timestamp: 1755697877542
+experiment_id: '0'
+last_updated_timestamp: 1755697880840
+model_id: m-f17d8a76364f4b18a106a6d24c0638cc
+model_type: null
+name: model
+source_run_id: e35d5bb6837248558e3f2de31085f43a
+status: 2
+status_message: null
